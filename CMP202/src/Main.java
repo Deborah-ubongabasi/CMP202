@@ -3,4 +3,11 @@ public class Main {
         System.out.println("Hello world!");
     }
 
+    computer hp250(){
+        new computer(new RAM(), new proccessor(), new storage());
+        System.out.println(hp250());
+
+        return null;
+    }
+
 }

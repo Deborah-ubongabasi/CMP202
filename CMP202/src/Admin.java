@@ -11,5 +11,6 @@ public class Admin extends Userr {
 public static void main(String[] args) {
     Admin uploadResult = new Admin();
     System.out.println(uploadResult);
+
 }
 }
