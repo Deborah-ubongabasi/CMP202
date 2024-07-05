@@ -42,7 +42,7 @@ public class XandO extends JFrame implements ActionListener {
         }
         //check rows,columns,and diagonals
         for(int i = 0;i<3;i++){
-            if (checkLine(board[i][0],board[i][1],board[i],[2])){
+            if (checkLine(board[i][0],board[i][1],board[i][2])){
                 announceWinner(board[i][0]);
                 return;
             }
